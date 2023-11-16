@@ -1,5 +1,3 @@
-import Phaser from "phaser";
-
 class Button {
   constructor(scene, txt, x = 0, y = 0, width = 0, height = 0) {
     this.scene = scene;
@@ -19,9 +17,9 @@ class Button {
     this.graphics.strokeRect(x, y, width, height);
 
     //text
-    this.text = this.scene.add.text(x + 10, y + 9, txt, {
+    this.text = this.scene.add.text(x + 9, y + 6, txt, {
       fontFamily: "Arial",
-      fontSize: 18,
+      fontSize: 16,
       color: "#004c23",
     });
 

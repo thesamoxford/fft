@@ -9,7 +9,7 @@ import WAIHEKEISLAND from "../../assests/GolfCourse_Maps/FfT_05_WaihekeIsland_37
 import WAITEMATA from "../../assests/GolfCourse_Maps/FfT_06-Waitemata_27tiles_L1.png";
 import MURIWAI from "../../assests/GolfCourse_Maps/FfT_07_Muriwai_86tiles_L1.png";
 import CHAMBERLAINPARK from "../../assests/GolfCourse_Maps/FfT_08_ChamberlainPark_32tiles_L1.png";
-import WAITTAKERE from "../../assests/GolfCourse_Maps/FfT_09_Waitakere_47tiles_L1.png";
+import WAITAKERE from "../../assests/GolfCourse_Maps/FfT_09_Waitakere_47tiles_L1.png";
 import REMUERA from "../../assests/GolfCourse_Maps/FfT_10_Remuera_61tiles_L1.png";
 import AWHITU from "../../assests/GolfCourse_Maps/FfT_11_Awhitu_15tiles_L1.png";
 import CLARKSBEACH from "../../assests/GolfCourse_Maps/FfT_12_ClarksBeach_34tiles_L1.png";
@@ -78,7 +78,7 @@ const ISOMETRIC_GRID_NAME = [
   "waitemata",
   "muriwai",
   "chamberlainpark",
-  "waittakere",
+  "waitakere",
   "remuera",
   "awhitu",
   "clarksbeach",
@@ -909,7 +909,7 @@ class Board extends Scene {
     this.load.image("waitemata", WAITEMATA);
     this.load.image("muriwai", MURIWAI);
     this.load.image("chamberlainpark", CHAMBERLAINPARK);
-    this.load.image("waittakere", WAITTAKERE);
+    this.load.image("waitakere", WAITAKERE);
     this.load.image("remuera", REMUERA);
     this.load.image("awhitu", AWHITU);
     this.load.image("clarksbeach", CLARKSBEACH);
